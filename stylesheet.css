@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  top: 0;
+  float: left;
+}
+
+.header a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.container {
+  width:1200px;
+  margin:0 auto;
+}
+
+.main-text{
+    position: relative;
+    top: 65px;
+    text-align: center;
+    padding:30px 20px 30px 20px;
+    font-size: 20px;
+}
+
+.item-wrapper{
+    padding:100px 20px 200px 20px;
+}
+
+.section-title{
+      font-size: 18px;
+      border-bottom: 1px solid #5f5d60;
+}
+
+.recommend-items{
+    padding:20px 10px 0px 10px;
+}
+
+.item {
+  float: left;
+  width: 25%;
+}
+
+.item-icon img{
+  position: relative;
+  width:260px;
+  height:180px;  
+}
+
+.item-icon p {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
+}
+
+.footer {
+  height: 165px;
+  width: 100%;
+  bottom: 0;
+}
