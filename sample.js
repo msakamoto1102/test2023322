@@ -2,7 +2,7 @@ function header(){
     $.ajax({
         url: "header.html",
         cache: false,
-        async: true,
+        async: false,
         success: function(html){
             document.write(html);
         }
