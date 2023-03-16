@@ -104,3 +104,36 @@ a {
   padding:0px 0px 0px 30px;
   flex: 1;
 }
+
+.item-title{
+      font-size: 18px;
+      text-align: center;
+      border-bottom: 1px solid #5f5d60;
+}
+
+.item-detail{
+  padding:20px 300px 20px 300px;
+  text-align: center;
+}
+
+.item-detail img{
+  position: relative;
+  width:520px;
+  height:360px;  
+}
+
+.item-detail-area{
+  font-size: 20px;
+  padding:0px 30px 10px 30px;
+  text-align: left;
+}
+
+.item-detail-field {
+ padding:10px 5px 10px 5px;
+ font-size: 20px;
+}
+
+.item-detail-value {
+  font-size: 18px;
+ padding:10px 5px 10px 5px;
+}
