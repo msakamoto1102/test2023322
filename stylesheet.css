@@ -73,3 +73,15 @@ a {
   width: 100%;
   bottom: 0;
 }
+
+.items-list{
+    padding:20px 10px 0px 10px;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+}
+
+.item-area {
+  padding:0px 0px 0px 30px;
+  flex: 1;
+}
